@@ -1,0 +1,110 @@
+/* Base styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightcyan;
+  color: #5f5151;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #ddd;
+}
+
+.dark-mode .builder, .dark-mode .resume-preview {
+  background-color: #444;
+  color: #ddd;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: darkcyan;
+}
+
+.builder, .resume-preview {
+  margin: 20px;
+  padding: 20px;
+  background-color: lightblue;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+input, textarea, button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #985858;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#resume-output {
+  line-height: 1.8;
+}
+
+/* Template styles */
+.template1 {
+  background-color: #f3dcff;
+  border: 2px solid #c777ee;
+  padding: 15px;
+}
+
+.template2 {
+  background-color: #e7f3fe;
+  border: 2px solid #b3d7ff;
+  padding: 15px;
+}
+
+.template3 {
+  background-color: #fff3e6;
+  border: 2px solid #ffcc99;
+  padding: 15px;
+}
+
+.template4 {
+  background-color: #e8ffe8;
+  border: 2px solid #b3ffb3;
+  padding: 15px;
+}
+
+.template5 {
+  background-color: #f0f0f0;
+  border: 2px solid #ffb9b9;
+  padding: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .builder, .resume-preview {
+    padding: 15px;
+  }
+
+  input, textarea, button {
+    padding: 8px;
+  }
+}
