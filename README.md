@@ -1,4 +1,3 @@
-Overview
 The Interactive Resume Builder is a web-based application that allows users to create, edit, and download their resumes dynamically. 
 
 It provides a user-friendly interface where individuals can input their personal details, professional experiences, and skills, and generate a polished, downloadable resume in real-time.
