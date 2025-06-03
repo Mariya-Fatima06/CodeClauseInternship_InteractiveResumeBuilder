@@ -6,6 +6,10 @@ Features:
 
 Live Preview: View changes to your resume as you make edits.
 
+
+Multiple Templates: Multiple templates available, so users can change accordingly.
+
+
 Download Options: Export the final resume as a PDF.
 
 Interactive Design: Built with a clean UI for an intuitive user experience.
